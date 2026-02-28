@@ -1,20 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Web</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ethio-Spain Runway</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+section {
+    padding: 60px 10%;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #c8a44d;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi primera página web</h1>
-    </header>
-    <main>
-        <p>Este es un sitio estático simple construido con HTML y CSS.</p>
-    </main>
-    <footer>
-        <p>&copy; 2026 Mi Primera Web</p>
-    </footer>
+
+<header>
+<h1>ETHIO-SPAIN RUNWAY</h1>
+<p>Evento Intercultural Hispano-Etíope</p>
+</header>
+
+<section>
+<h2>Sobre el Evento</h2>
+<p>Ethio-Spain Runway nace del deseo de tender puentes entre culturas, creando un intercambio auténtico entre España y Etiopía a través de la moda, la cultura y la gastronomía.</p>
+</section>
+
+<section>
+<h2>Historia y Cultura de Etiopía</h2>
+<p>Etiopía es el único país africano que nunca fue colonizado, consolidando su independencia tras la Batalla de Adwa en 1896.</p>
+<p>Es cuna del café, tierra de atletas de élite y posee profundas tradiciones religiosas y culturales.</p>
+</section>
+
+<section>
+<h2>Moda</h2>
+<p>El evento contará con diseñadores etíopes y la participación de María José Ortiz Haute Couture como madrina española.</p>
+<div class="gallery">
+<img src="images/designer1.jpg">
+<img src="images/designer2.jpg">
+<img src="images/designer3.jpg">
+</div>
+</section>
+
+<section>
+<h2>Gastronomía</h2>
+<p>La injera y los sabores etíopes se fusionarán con la cocina española creando una experiencia sensorial única.</p>
+</section>
+
+<section>
+<h2>Invitados</h2>
+<p>Personalidades del mundo de la moda, cultura, deporte y empresa acompañarán el evento.</p>
+<ul>
+<li>Marcus Cooper</li>
+<li>Sara Carbonero</li>
+<li>Nieves Álvarez</li>
+<li>Paula Vázquez</li>
+<li>Concha Buika</li>
+</ul>
+</section>
+
+<section>
+<h2>Localización</h2>
+<p>El evento se celebrará en espacios emblemáticos de Madrid como el Palacio de Cibeles, Real Fábrica de Tapices o Palacio Santoña.</p>
+</section>
+
+<section>
+<h2>Programa</h2>
+<p>Jueves: Cocktail inaugural</p>
+<p>Viernes: Gala intercultural y desfile</p>
+<p>Sábado: Visitas culturales</p>
+</section>
+
+<section>
+<h2>Acción Social</h2>
+<p>El evento dará visibilidad a la ONG Abay Etiopía, apoyando proyectos de educación, salud y desarrollo comunitario.</p>
+<a href="https://www.abayetiopia.org/" class="btn" target="_blank">Conocer la ONG</a>
+</section>
+
+<section>
+<h2>Contacto</h2>
+<p>Mitiku Marcos Lillo</p>
+<p>Email: mitiku.marketing@gmail.com</p>
+<p>Teléfono: +34 692 40 36 91</p>
+</section>
+
+<footer>
+<p>© 2026 Ethio-Spain Runway</p>
+</footer>
+
 </body>
 </html>
