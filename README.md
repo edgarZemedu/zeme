@@ -1,4 +1,4 @@
-# zeme
+# ethiospainrunway
 
 Este es un repositorio para mi primera página web estática.
 
