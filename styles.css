@@ -1,0 +1,20 @@
+/* Estilos básicos para la primera web */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header, footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
